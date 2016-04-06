@@ -1,0 +1,353 @@
+*
+{
+	margin:0;
+	padding:0;
+}
+
+a img
+{
+	border:0;
+}
+
+input, select, textarea, button
+{
+	font-family:inherit;
+}
+
+
+
+body
+{
+	margin:0;
+	padding:0;
+	font-family: 'Montserrat', sans-serif;
+	height: 100%;
+	font-weight: normal;
+	text-shadow: 5px 3px 5px rgba(0,0,0,0.5);
+
+}
+
+h2
+{
+	color:white;
+	text-transform: uppercase;
+	margin-bottom: 15px;
+}
+
+#inner-region
+{
+	float: right;
+	max-width:490px;
+}
+
+#inner-region > h2
+{
+	font-size: 60px;
+	color:white;
+	line-height: 0.9em;
+	margin: 0px;
+}
+
+#inner-region > h2+p
+{
+	font-size: 34px;
+	text-shadow: 5px 3px 5px rgba(0,0,0,0.5);
+	margin-bottom: 20px;
+}
+
+.button a,
+.button input
+{
+	border: 2px solid #27aae1;
+	padding: 10px 20px;
+	background: white;
+	color:#27aae1;
+	font-size: 14px;
+	text-shadow:none;
+	text-decoration: none;
+	display: inline-block;
+	cursor: pointer;
+	-webkit-appearance:none;
+}
+
+.blue
+{
+	color:#27aae1;
+	font-size: 78px;
+	font-weight: bold;
+	text-shadow: 5px 3px 5px rgba(0,0,0,0.5);
+}
+
+html,
+body > div
+{
+	height: 100%;
+}
+
+p
+{
+	margin:0;
+	color: white;
+	font-size: 14px;
+	text-shadow: 2px 1px 1px rgba(0,0,0,0.5);
+}
+
+#header
+{
+	text-align: center;
+	border-bottom: 2px solid #126b36;
+}
+
+.logo-text
+{
+	color:#126b36;
+	font-size: 23px;
+	text-align: right;
+	font-weight: 600;
+}
+
+p.logo-text
+{
+	text-shadow:none;
+}
+
+#header-inner
+{
+	width:415px;	
+	margin: 20px auto;
+	text-align: right;
+}
+
+#top-text p
+{
+	padding-bottom: 15px;
+}
+
+#header img
+{
+	vertical-align: middle;
+}
+
+#content
+{
+	background-image:url(../images/bg.jpg) ;
+	background-repeat:no-repeat; 
+	background-size: cover;
+	overflow: hidden;
+	background-position:center -15px;
+}
+
+#content-inner
+{
+	max-width:980px;
+	margin:0 auto;
+	padding: 40px 10px;
+	padding-bottom:100px;
+	overflow: hidden;
+}
+
+#coming-soon p
+{	
+	font-size: 30px;
+	margin-right: -99px;
+	margin-left: -100px;
+}
+
+#coming-soon
+{
+	font-size: 30px;
+	width: 200px;
+	margin-left: 200px;
+	padding: 30px;
+	border-bottom: 2px solid white;
+}
+
+#contact
+{
+	padding: 20px 0px 0px;
+}
+
+#contact + .button
+{
+	margin-bottom: 20px;
+}
+
+#contact-inner
+{
+	padding-top: 20px;
+}
+
+#footer-middle
+{
+	
+	background-color: #27aae1;
+	overflow: hidden;
+}
+
+#footer-middle > div
+{
+	float: left;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+#footer-logo-text
+{
+	color:#126b36;
+	text-align: right;
+	font-size:10px;
+	font-weight: bold; 
+	text-shadow:none;
+}
+
+
+#div-inside .container
+{
+	
+	max-width: 980px;
+	margin: 0 auto;
+}
+
+#div-inside .container a
+{
+	color:white;
+	text-decoration: none;
+}
+
+
+#footer-middle{
+	color: #fff;
+	background-color: #27aae1;
+	transform:  rotate(358deg) scale(1) skew(-2deg) translate(0px);
+	-webkit-transform:  rotate(358deg) scale(1) skew(-2deg) translate(0px);
+	-moz-transform: rotate(358deg) scale(1) skew(-2deg) translate(0px);
+	-o-transform:  rotate(358deg) scale(1) skew(-2deg) translate(0px);
+	-ms-transform:  rotate(358deg) scale(1) skew(-2deg) translate(0px);
+	margin-top: -39px;
+	border-top: 5px solid white;
+	height: 80px;
+	margin-top: -50px;
+	-webkit-backface-visibility: hidden;
+
+}
+
+#footer-bottom {
+	color: #808080;
+	background-color: #27aae1;
+	padding: 30px 10px;
+	position: relative;
+	margin-top: -45px;
+	overflow: hidden;
+}
+
+#social
+{
+	float: right;
+	padding-bottom: 10px;
+}
+
+#social img
+{
+	padding-left: 25px;
+}
+
+#contact-info
+{
+	float: left;
+}
+
+#content-inner form
+{
+	margin-left: -4px;
+}
+
+#footer-bottom a:hover
+{
+	text-decoration: underline;
+}
+
+
+@media screen and (max-width: 767px)
+{
+	#top-text
+	{	
+		float: none;
+		margin-right: 0px;
+	}
+
+	#social
+	{
+		float: left;
+		margin-top: 30px;
+	}
+
+	#footer-bottom
+	{
+		text-align: center;
+	}
+
+	#contact-info
+	{
+		float: none;
+	}
+
+	#top-text > div p
+	{
+		text-align: left;
+	}
+
+	#social
+	{
+		float: none;
+	}
+
+	#div-inside .container .button a
+	{
+		color: #27aae1;
+	}
+	#div-inside .container .button a:hover
+	{
+		text-decoration: none;
+	}
+
+	#social img 
+	{
+		padding: 0px 15px;
+	}
+
+	#content
+	{
+		background-image:url(../images/mobile-bg.jpg) ;
+	}
+
+	#inner-region > h2
+	{
+		font-size: 32px;
+	}
+
+	.blue
+	{
+		font-size: 40px;
+	}
+
+	#inner-region > h2+p
+	{
+		font-size: 17px;
+	}
+
+	#rio
+	{
+		display: block;
+		padding-top: 20px;
+	}
+
+	#footer-middle
+	{
+		height: 70px;
+	}
+
+	#top-text #contact p
+	{
+		text-align: center;
+	}
+}

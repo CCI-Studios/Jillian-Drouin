@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="css/style.css?Friday 18th of Dec 2015 11:31:21 AM">
+		<title>Jillian Drouin | Canadian Olympic Hopeful</title>
+	    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js" ></script>
+
+		<link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
+		 <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1">
+		<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+
+		<script>
+
+			(function($){
+
+				$(function(){
+
+					if($(window).width() < 767)
+					{
+						$('#top-text').insertBefore('#contact-info');
+					}
+					else if($(window).width() > 767)
+					{	
+						$('#top-text').insertAfter('#inner-region>h2+p');
+					}
+
+					$(window).resize(function(){
+						if($(window).width() < 767)
+						{
+							$('#top-text').insertBefore('#contact-info');
+						}
+						else if($(window).width() > 767)
+						{
+							$('#top-text').insertAfter('#inner-region>h2+p');
+						}
+					});
+				});
+
+			})(jQuery);
+		</script>
+	</head>
+	<body>
+
+		<div id="wrapper">
+			
+			<div id="content">
+				<div id="content-inner">
+					<div id="inner-region">
+						<h2>Jillian <br><span class="blue">Drouin</span></h2>
+						<p>OLYMPIC HOPEFUL</p>
+						<div id="top-text">
+							<div>
+								<p>Jillian Drouin grew up in Corunna and went to high school at St. Patricks in Sarnia. She continues to live and work in Sarnia-Lambton. Jillian is one of Canada&apos;s top ranked Heptathletes and is a good bet to qualify for the Canadian team in Rio de Janeiro in 2016. </p>
+
+								<p>But she needs our help. A group of volunteers is working to help secure some sponsorships/funding for Jillian to help her reach her dream and represent our area well. </p>
+							</div>
+								<h2>Please help Jillian reach Rio!</h2>
+
+								<p>If you would like to support Jillian on her journey to Rio, you can do so by clicking below:</p>
+							
+							<div class="button">
+								<form action="https://www.paypal.com/cgi-bin/webscr" target="_blank" method="post" target="_top">
+								<input type="hidden" name="cmd" value="_s-xclick">
+								<input type="hidden" name="hosted_button_id" value="B4MK4BCTG4SJU">
+								<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+								<input type="submit" name="submit" value="SUPPORT JILLIAN">
+								</form>
+							</div>
+						
+						<div id="contact">
+							<p>For more information on the benefits of supporting Jillian, please click below:</p>
+						</div>
+						<div class="button">
+							<a href="files/CCI-Studios-Jillian-Drouin-Sponsorship-Package-FINAL.pdf" target="_blank">SPONSORSHIP</a>
+						</div>
+						<div><h2 style="font-size:22px;">FULL WEBSITE COMING SOON</h2></div>
+					</div>
+					</div>
+				</div>
+			</div>
+			<div id="footer-middle1">
+			</div>
+			<div id="footer-middle">
+				
+			</div>
+
+			<div id="footer-bottom">
+				
+				<div id="div-inside">
+					<div class="container">
+						<div id="contact-info"> 
+							<p>For more information regarding sponsorship,<br>please contact:</p>
+							<p style="padding-bottom:10px;"></p>
+							<p>Jeff Burchill </p>
+							<p>Phone: (519) 383-1030</p>
+							<p>Email: <a href="mailto:jburchill@cogeco.ca">jburchill@cogeco.ca</a></p>
+						</div>
+						<div id="social">
+							<a href="http://www.facebook.com/jilliandrouinathlete" target="_blank"><img id="fb" src="images/fb.png"></a>
+							<a href="http://www.instagram.com/jilliandrouin/" target="_blank"><img id="insta" src="images/instagram.png"  ></a>
+							<a href="https://twitter.com/jilliandrouin" target="_blank"><img id="twit" src="images/twitter.png"></a>
+							<a id="rio" href="http://www.rio2016.com/en" target="_blank"><img src="images/rio.png" ></a>
+
+						</div>
+					</div>
+				</div>
+			</div>
+
+	</body>
+</html>

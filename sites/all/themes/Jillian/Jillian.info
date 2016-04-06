@@ -1,0 +1,27 @@
+name = Jillian Drouin
+description = Jillian Drouin Custom
+core = 7.x
+
+scripts[] = js/script.js
+scripts[] = js/slick/slick.js
+scripts[] = js/script.js
+
+stylesheets[all][] = stylesheets/screen.css
+;stylesheets[all][] = css/screen.css
+
+regions[navigation] = Navigation
+regions[header] = Header
+regions[main_page_section] = Main Page
+regions[section2] =About Section
+regions[section3] = Second image section
+regions[section5] = Event section
+regions[section7] = Blog section
+regions[section8] = Contribute section
+regions[section9] = Sponsorship section
+regions[section10] = Logos section
+regions[help] = Help
+regions[content] = Content
+regions[sidebar] = Sidebar
+regions[widgets] = Widgets
+regions[footer] = Footer
+
